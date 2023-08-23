@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<title>Tesla Project</title>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+    <div
+        class="bg-[url('https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MT322,$PMNG,$W40B,$IBB1&view=STUD_FRONT34&model=m3&size=1920&bkba_opt=2&crop=0,0,0,0&')] h-screen bg-center bg-cover">
+        <div class="pt-5 md:flex md:justify-between font-bold md:items-center">
+            <div class="ml-8 flex justify-between items-center">
+                <svg class="w-32 cursor-pointer" viewBox="0 0 342 35" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="currentColor"
+                        d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7h24zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zM308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7z">
+                    </path>
+                </svg>
+                <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+                    <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+                </span>
+            </div>
+            <div class="hidden lg:inline">
+                <ul class="flex space-x-2 text-sm">
+                    <li class="py-1 px-3 hover:bg-slate-300 hover:rounded-full cursor-pointer">Model S</li>
+                    <li class="py-1 px-3 hover:bg-slate-300 hover:rounded-full cursor-pointer">Model 3</li>
+                    <li class="py-1 px-3 hover:bg-slate-300 hover:rounded-full cursor-pointer">Model X</li>
+                    <li class="py-1 px-3 hover:bg-slate-300 hover:rounded-full cursor-pointer">Model Y</li>
+                    <li class="py-1 px-3 hover:bg-slate-300 hover:rounded-full cursor-pointer">Solar Roof</li>
+                    <li class="py-1 px-3 hover:bg-slate-300 hover:rounded-full cursor-pointer">Solar Panel</li>
+                </ul>
+            </div>
+
+
+            <ul id="ul"
+                class="md:flex md:items-center z-[10] absolute md:z-auto md:static w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500 bg-slate-400 md:bg-white">
+                <li class="cursor-pointer hover:rounded-full w-full hover:bg-slate-300 py-1 px-3 duration-500 left-0">
+                    Shop
+                </li>
+                <li class="cursor-pointer hover:rounded-full hover:bg-slate-300 py-1 px-3 duration-500">Account</li>
+                <li class="cursor-pointer hover:rounded-full hover:bg-slate-300 py-1 px-3 duration-500">Menu</li>
+            </ul>
+            <!-- </div> -->
+        </div>
+        <div class="flex flex-col absolute top-20 left-[50%] translate-x-[-50%] text-center">
+            <h1 class="text-[40px] m-auto font-bold">Model 3</h1>
+            <p class="whitespace-nowrap pt-1 text-[16px] text-[#5c5d61]">
+                Order Online For
+                <span class="underline underline-offset-4 hover:decoration-2 cursor-pointer">
+                    Touchless Delivery
+                </span>
+            </p>
+        </div>
+
+        <div class="md:space-x-4 absolute bottom-[80px] left-[50%] translate-x-[-50%] flex flex-col md:flex-row">
+            <button class="uppercase bg-gray-800 rounded-full text-white w-96 h-10 md:w-60">Custom Order</button>
+            <button class="mt-2 md:mt-0 uppercase bg-slate-200 rounded-full text-gray-900 w-96 h-10 md:w-60">EXISTING
+                INVENTORY</button>
+        </div>
+
+        <div class="absolute left-[50%] translate-x-[-50%] bottom-3">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 animate-bounce" viewBox="0 0 20 20"
+                fill="currentColor">
+                <path fill-rule="evenodd"
+                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                    clip-rule="evenodd" />
+            </svg>
+        </div>
+
+    </div>
+    <div
+        class="relative bg-[url('https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTY11,$PPMR,$WY19B,$INPB0&view=FRONT34&model=my&size=1920&bkba_opt=2&crop=0,0,0,0&')] h-screen bg-center bg-cover">
+
+        <div class="flex flex-col absolute top-10 left-[50%] translate-x-[-50%] text-center">
+            <h1 class="text-[40px] m-auto font-bold">Model Y</h1>
+            <p class="whitespace-nowrap pt-1 text-[16px] text-[#5c5d61]">
+                Order Online For
+                <span class="underline underline-offset-4 hover:decoration-2 cursor-pointer">
+                    Touchless Delivery
+                </span>
+            </p>
+        </div>
+
+        <div class="md:space-x-4 absolute bottom-[80px] left-[50%] translate-x-[-50%] flex flex-col md:flex-row">
+            <button class="uppercase bg-gray-800 rounded-full text-white w-96 h-10 md:w-60">Custom Order</button>
+            <button class="mt-2 md:mt-0 uppercase bg-slate-200 rounded-full text-gray-900 w-96 h-10 md:w-60">EXISTING
+                INVENTORY</button>
+        </div>
+
+    </div>
+
+    <div
+        class="relative bg-[url('https://digitalassets-shop.tesla.com/image/upload/f_auto,q_auto/v1/content/dam/tesla/teslaweb/homepage/Lifestyle_web.jpg')] h-screen bg-center bg-cover">
+
+        <div class="flex flex-col absolute top-20 left-[50%] translate-x-[-50%] text-center">
+            <h1 class="text-[40px] m-auto font-bold">ACCESSORIES</h1>
+
+        </div>
+
+        <div class="md:space-x-4 absolute bottom-[80px] left-[50%] translate-x-[-50%] flex flex-col md:flex-row">
+            <button class="uppercase bg-gray-800 rounded-full text-white w-96 h-10 md:w-60">Buy Now</button>
+        </div>
+
+    </div>
+
+    <footer class="flex p-10 space-x-4 justify-center items-center">
+        <ul class="flex md:space-x-4 md:flex-row flex-col text-sm justify-center items-center text-gray-500">
+            <li>
+                Tesla &Copy 2023
+            </li>
+            <li>
+                Privacy & Legal
+            </li>
+            <li>
+                Locations
+            </li>
+            <li>
+                Recalls
+            </li>
+        </ul>
+    </footer>
+
+    <script>
+        function Menu(e) {
+            let list = document.getElementById('ul');
+            e.name === 'menu' ? (e.name = "close", list.classList.add('top-[80px]'), list.classList.add('opacity-100')) : (e.name = "menu", list.classList.remove('top-[80px]'), list.classList.remove('opacity-100'))
+        }
+    </script>
+</body>
+
+</html>
